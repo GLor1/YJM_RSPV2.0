@@ -40,14 +40,13 @@
     text-align: right;
     transform: translate(-130px, 0px);
     transition: .5s;
-       color: black;
+    color: black;
 
 }
 
 .sidebaricons a img {
     margin-left: 20px;
     background-color: white;
-    ;
     height: 40px;
     width: 40px;
     text-align: center;
@@ -64,9 +63,6 @@
     height: 200px;
     width: 200px;
     margin: 10px;
-    /* border: 2px solid white;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3); */
-    
 
 }
 
