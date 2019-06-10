@@ -23,7 +23,7 @@ if (idleTime > 1) { // 2 minutes
 
 
 
-
+// MapforGeolocation
 
 function myLocation() {
     if (navigator.geolocation) {
@@ -72,3 +72,5 @@ btn.onclick = function () {
 span.onclick = function () {
     modal.style.display = "none";
 }
+
+
