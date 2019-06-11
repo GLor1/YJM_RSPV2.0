@@ -1,3 +1,5 @@
+
+
 .sidebar img {
     height: 75px;
     width: 75px;
@@ -52,7 +54,7 @@
     text-align: center;
     line-height: 40px;
     border-radius: 60%;
-    
+        
 }
 
 .sidebaricons a:hover {
@@ -81,10 +83,7 @@
     padding: 20px;
 }
 
-/* .article_content_container {
-    background-color: rgb(246, 223, 243);
-   
-} */
+
 
 .article_content {
     padding: 30px;
@@ -125,9 +124,8 @@
         height: 30%;
         width: 20%;
         align-content: center;
-
     }
-
+   
 }
 
 .para1 {
@@ -186,20 +184,7 @@
     color: white;
   }
   
-  /* .twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .google {
-    background: #dd4b39;
-    color: white;
-  }
-  
-  .linkedin {
-    background: #007bb5;
-    color: white;
-  } */
+
   
   .youtube {
     background: #bb0000;
@@ -211,4 +196,71 @@
     display: flex;
     flex: wrap;
     justify-content: center;
+
+}
+
+
+
+
+
+/* Mobile View */
+@media only screen and (max-width: 400px) {
+    
+}
+
+
+/* Tablet View */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: #F5CF8E;
+        /* Yellow */
+    }
+     /* .sidebaricons {
+
+        position: fixed; 
+        top: 25%;
+        left: 10%;
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    
+    .sidebaricons a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 2px;
+        text-align: right; 
+        transform: translate(-130px, 0px);
+        transition: .5s; 
+        color: black;
+    
+    }
+    
+    .sidebaricons a img {
+        margin-left: 20px;
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 60%;
+            
+    }
+    
+    .sidebaricons a:hover {
+        transform: translate(-40px, 0px);
+    }
+
+} */
+
+
+/* Desktop View */
+@media only screen and (min-width: 961px) {
+body{
+    background: blue;
+}
 }
