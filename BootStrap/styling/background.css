@@ -2,8 +2,19 @@
 
 .divStyleParagraph {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 14px;
+font-size: 20px;
+margin-left: 10%;
+margin-right: 10%;
 }
+
+.hashtag {
+    text-align: center;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    letter-spacing: 4px;
+
+} 
 
 
 /* //CURSIVE FONT OPTIONS BELOW */
