@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nomination</title>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Satisfy" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Satisfy" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../styling/nominate.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../../styling/bootstrap.css">
@@ -68,23 +69,35 @@
           <li class="nav-item">
             <a class="nav-link" href="../../index.html#gallery">Gallery</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../donate/donate.html">Donate</a>
-          </li>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Give Back
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../donate/donate.html">Donate</a>
+            <a class="dropdown-item" href="../nominations/Nomination.html">Nominate an Individual</a>
+            <a class="dropdown-item" href="#">Volunteer</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/Contact/ContactUs.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://www.icivics.org/games/do-i-have-right">Know Your Rights</a>
+      </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        
       </div>
     </nav>
          
-
+<!-- Page Content -->
     <div class="w3-display-container">
         <img src="../../resources/nominations.jpg" width="100%">
         <div class="w3-display-topmiddle w3-container">
           <br>
-            <h1 class="satisfy" style="color:white; font-size: 60px "> #Nominations</h1>
+            <h1 class="hashtag" style="color:white "> #Nominations</h1>
             
             <a href= "#vote">
               <button class="btnnn">Vote for your favorite NOW!</button>
@@ -163,13 +176,13 @@
             <div class="col-md-2 mb-md-0 mb-3">
               <ul style=" text-align: center " class="list-unstyled">
                 <li>
-                  <a href="#">Background</a>
+                  <a href="../about/background.html">Background</a>
                 </li>
                 <li>
-                  <a href="#!">Principles</a>
+                  <a href="../about/principles.html">Principles</a>
                 </li>
                 <li>
-                  <a href="#!">Coalition & Partnerships</a>
+                  <a href="../about/coalition.html">Coalition & Partnerships</a>
                 </li>
               </ul>
             </div>
@@ -178,7 +191,7 @@
     
         <!-- Copyright -->
         <div style=color:orange class="footer-copyright text-center py-0">© 2019 Copyright:
-          <a href="index.html"> Youth Justice Milwaukee</a>
+          <a href="../../index.html"> Youth Justice Milwaukee</a>
         </div>
     
       </footer>

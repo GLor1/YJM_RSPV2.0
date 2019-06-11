@@ -1,4 +1,4 @@
-
+/* 
 
 .satisfy {
 font-family: 'Satisfy', cursive;
@@ -7,7 +7,7 @@ font-family: 'Satisfy', cursive;
 .dancing {
 
 font-family: 'Dancing Script', cursive;
-}
+} */
 
 .margins1 {
     margin-block-start: 2% !important;
@@ -22,3 +22,11 @@ font-family: 'Dancing Script', cursive;
     margin-right: 20% !important;
 }
 
+.hashtag {
+    text-align: center;
+    color: white!important;
+    font-family: 'Permanent Marker', cursive!important;
+    font-size: 3rem;
+    letter-spacing: 4px;
+
+}
