@@ -1,4 +1,5 @@
 
+
 *
 {box-sizing:border-box;
 }
@@ -6,7 +7,7 @@
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
+  } 
   
   .container {
     padding: 64px;
@@ -28,7 +29,7 @@
     float: left;
     width: 33.33333%;
     padding: 20px;
-  }
+  } 
   
   .large-font {
     font-size: 48px;
@@ -45,13 +46,13 @@
     font-size: 16px;
     cursor: pointer;
     background-color: firebrick;
-  }
+  } 
   
-  img {
+  /* img {
     display: block;
     height: auto;
     max-width: 100%;
-  }
+  } */
   
   @media screen and (max-width: 1000px) {
     .column-66,
@@ -67,11 +68,11 @@
   /* BLOG  */
   body {
     font-family: Arial;
-    padding: 20px;
+    padding: 40px;
     background: #f1f1f1;
   }
   
-  /* Header/Blog Title */
+  Header/Blog Title
   .header {
     padding: 30px;
     font-size: 40px;
@@ -131,3 +132,7 @@
     }
   }
 
+
+
+  
+ 
